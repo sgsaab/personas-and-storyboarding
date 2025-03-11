@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accessible Popups</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Commercial Coffee Machine UX Study</h1>
+      <p class="intro">
+        Stepping into a users shoes as they interact with the coffee machine
+        interface.
+      </p>
+    </header>
+
+    <section class="section" id="overview">
+      <h2>Project Overview</h2>
+      <p>
+        This project involved making real-life observations and constructing
+        unbiased interviews in public, then illustrating user needs and
+        experiences based on empirical observations through personas and
+        storyboarding. I created engaging narratives that demonstrate the user
+        journey end-to-end and the goals and characteristics of the depicted
+        persona.
+      </p>
+
+      <p>
+        The goal was to understand user needs and pain points when interacting
+        with the coffee machine.
+      </p>
+    </section>
+
+    <section class="section" id="interface">
+      <h2>The Interface</h2>
+      <p>
+        I selected a coffee machine located in the lobby of the John D.
+        Rockefeller, Jr. Library. This coffee machine has an interative screen
+        that allows users to select from a variety of drinks, as well as a
+        dispenser and payment system.
+      </p>
+
+      <div class="visuals">
+        <div class="interface-sketch">
+          <img
+            src="assets/sketch.jpeg"
+            alt="Sketch of coffee machine showing the main screen, and payment and dispensing areas"
+          />
+          <p>
+            <em
+              >Annotated sketch of the coffee machine showing key interactive
+              components</em
+            >
+          </p>
+        </div>
+        <div class="interface-image">
+          <img
+            src="assets/image.jpeg"
+            alt="Image of coffee machine showing the main screen, and payment and dispensing areas"
+          />
+          <p>
+            <em>Image of the coffee machine</em>
+          </p>
+        </div>
+      </div>
+
+      <div class="interface-description">
+        <h3>Interface Description</h3>
+        <p>
+          The coffee machine features a touchscreen display for selecting drink
+          options, a card reader for payment as well as a seperate payment
+          terminal for cash and cards, and a drink dispensing area. The
+          interface aims to solve the problem of getting coffee in an efficient
+          way without making it yourself at home. The main components include:
+        </p>
+        <ul>
+          <li>
+            <strong>Touchscreen Display:</strong> Shows menu options for various
+            drink types and allows customization
+          </li>
+          <li>
+            <strong>Card Reader:</strong> Accepts credit/debit cards and tap pay
+          </li>
+          <li>
+            <strong>Payment Terminal:</strong> Accepts bills, swipe cards, chip
+            cards, and tap pay
+          </li>
+          <li>
+            <strong>Drink Dispensing Area:</strong> Dispenses the drink for the
+            user to take
+          </li>
+          <li>
+            <strong>Accessibility Features:</strong> Two flag logos at the
+            bottom left of the screen allow users to select their drink in two
+            other languages
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="observations">
+      <h2>User Observations & Interviews</h2>
+      <p>
+        Next, I observed as users interacted with the machine and conducted
+        interviews to better understand their experience
+      </p>
+
+      <div class="observation-summary">
+        <h3>Key Observations</h3>
+        <ul>
+          <li>
+            Most users didn't browse, instead immediately selecting their choice
+          </li>
+          <li>Most users selected something from the first screen of drinks</li>
+          <li>
+            Users completed transitions with minimal time spent reading
+            on-screen instructions
+          </li>
+          <li>
+            Several users appeared confused about when to pay versus when to
+            select their drink
+          </li>
+          <li>
+            Users often looked around the machine when waiting for their drink
+            to be dispensed
+          </li>
+          <li>
+            Some users expressed uncertainty about the difference between
+            similar drink options
+          </li>
+          <li>
+            Multiple users checked their payment cards multiple times before
+            inserting
+          </li>
+        </ul>
+      </div>
+
+      <div class="interview-questions">
+        <h3>Interview Questions</h3>
+        <ol>
+          <li>
+            What were your initial thoughts when you first approached the
+            machine?
+          </li>
+          <li>
+            Was there anything about the interface that was unclear or
+            confusing?
+          </li>
+          <li>How easy or difficult was it to complete your purchase? Why?</li>
+          <li>
+            Did you encounter any difficulties while using the machine? If so,
+            what were they?
+          </li>
+          <li>Would you use this machine again? Why or why not?</li>
+        </ol>
+      </div>
+
+      <h3>Interview Summaries</h3>
+      <div class="interview-response">
+        <h4>User 1</h4>
+        <p>
+          User 1 expressed frequent confusion surrounding topics such as when
+          the cup will dispense, when to pay, and the difference between various
+          drinks. On the topic of the cup dispensing, they said, "You click the
+          thing you're gonna select and then nothing happens then randomly it
+          comes out." This user found there to be a lack of instructions as
+          well, and thought additional descriptions would be beneficial.
+          Expressed stress surrounding the payment, as to when it should happen
+          and if it succeeded, and said they would keep using the machine as
+          they like the hot chocolate, even though it burns their mouth.
+        </p>
+      </div>
+
+      <div class="interview-response">
+        <h4>User 2</h4>
+        <p>
+          User 2 doesn't like the futuristic and modern model of the machine.
+          Expressed annoyance towards an "error message that's been there since
+          last year." Also found the "bring your own cup" feature confusing,
+          stating that they didn't know how to do that. Besides that finds the
+          machine easy to use because he's memorized the UI and knows how to get
+          to his drink. Would continue to use it because it's the only option,
+          but said about the initial screen: "we don't need all of this, we
+          don't need the touch to start, we just need to pick our drinks."
+        </p>
+      </div>
+
+      <div class="interview-response">
+        <h4>User 3</h4>
+        <p>
+          Found the overall experience simple. Said it was easy to complete
+          their purchase, and that there's a quick route from choosing their
+          drink to paying for it. Found the milk size display confusing, but
+          otherways said the machine was quick, price is okay, and it's pretty
+          easy to use.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="personas">
+      <h2>User Personas</h2>
+
+      <div class="persona">
+        <div class="persona-header">
+          <img
+            class="persona-img"
+            src="assets/efficient-emerson.png"
+            alt="Photo of Rushed Rachel"
+          />
+          <div class="persona-details">
+            <h3 class="persona-name">Efficient Emerson</h3>
+            <p class="persona-headline">
+              The time-conscious regular who values efficiency and reliability
+            </p>
+          </div>
+        </div>
+
+        <p>
+          Emerson is a 22-year-old junior in college who likes grabbing coffee
+          from the machine on his way to class. He visits the library multiple
+          times a week and uses the coffee machine almost every time.
+        </p>
+
+        <p>
+          <strong>Interface Problems:</strong> Emerson finds the interface
+          unnecessarily complex for his routine order. He dislikes having to
+          navigate through multiple screens for a drink he orders almost daily.
+          The lack of a quick-order or favorites feature frustrates him, as does
+          waiting for animations between screen transitions.
+        </p>
+
+        <p>
+          <strong>Representation:</strong> Emerson represents frequent users who
+          prioritize speed and efficiency over exploration. These users have
+          established preferences and want the interface to accommodate their
+          routine without unnecessary steps.
+        </p>
+
+        <div class="empathy-map">
+          <div class="map-quadrant">
+            <span class="map-title">Thinks</span>
+            <ul>
+              <li>"Time for my morning coffee."</li>
+              <li>
+                "Why do I have to go through so many screens for the same
+                drink?"
+              </li>
+              <li>"This machine doesn't have to look this fancy."</li>
+              <li>
+                "The payment should process faster, I'm going to be late."
+              </li>
+            </ul>
+          </div>
+
+          <div class="map-quadrant">
+            <span class="map-title">Feels</span>
+            <ul>
+              <li>Impatient when the interface is slow to respond</li>
+              <li>Confident in his selection choices</li>
+              <li>Irritated by unnecessary steps in the process</li>
+              <li>Indifferent to the fancy gimmicks on the machine</li>
+            </ul>
+          </div>
+
+          <div class="map-quadrant">
+            <span class="map-title">Says</span>
+            <ul>
+              <li>"Come on, come on...."</li>
+              <li>"Yeah yeah hurry up."</li>
+              <li>"They should have a order in advance feature"</li>
+              <li>"Just give me my regular already."</li>
+            </ul>
+          </div>
+
+          <div class="map-quadrant">
+            <span class="map-title">Does</span>
+            <ul>
+              <li>
+                Taps the screen rapidly, sometimes before animations complete
+              </li>
+              <li>Goes straight to his preferred drink without browsing</li>
+              <li>
+                Has his payment card ready before reaching the payment screen
+              </li>
+              <li>
+                Multitasks on his phone while waiting for the drink to dispense
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="persona">
+        <div class="persona-header">
+          <img
+            class="persona-img"
+            src="assets/confused-carly.png"
+            alt="Photo of Curious Carlos"
+          />
+          <div class="persona-details">
+            <h3 class="persona-name">Confused Carly</h3>
+            <p class="persona-headline">
+              The worrysome user who needs clarity and explores her options
+            </p>
+          </div>
+        </div>
+
+        <p>
+          Carly is a freshman in college who's new to campus. She's stressed
+          about her classes and still trying to get her feet under her. She
+          loves getting sweet hot chocolate from the coffee machine by her
+          favorite library.
+        </p>
+
+        <p>
+          <strong>Interface Problems:</strong> Carly is unsure about the
+          difference between drink options. She also finds the feedback while
+          the machine is brewing insufficient and worries about whether her
+          transaction went through. She feels confused as to if she should pay
+          or select her drink first.
+        </p>
+
+        <p>
+          <strong>Representation:</strong> Carly represents first-time or
+          occasional users who approach the interface with curiosity but also
+          caution. These users need clearer guidance and feedback throughout the
+          entire process.
+        </p>
+
+        <div class="empathy-map">
+          <div class="map-quadrant">
+            <span class="map-title">Thinks</span>
+            <ul>
+              <li>
+                "What's the difference between a hot chocolate and a creamy hot
+                chocolate?"
+              </li>
+              <li>"Should I pay yet? When do I pay?"</li>
+              <li>"Is the machine out of cups?"</li>
+              <li>"I wonder how customizable these drinks really are."</li>
+              <li>"Did my transation go through? The screen didn't change."</li>
+            </ul>
+          </div>
+
+          <div class="map-quadrant">
+            <span class="map-title">Feels</span>
+            <ul>
+              <li>Confused and curious about the variety of options</li>
+              <li>Uncertain about payment processes</li>
+              <li>Mildly anxious about something going wrong</li>
+              <li>Concerned about holding up others</li>
+            </ul>
+          </div>
+
+          <div class="map-quadrant">
+            <span class="map-title">Says</span>
+            <ul>
+              <li>"Which way does the card go in?"</li>
+              <li>
+                "The coffee's actually pretty good for an automated machine."
+              </li>
+              <li>"Are there any specialty drinks I should try?"</li>
+              <li>"It would be helpful to have clearer instructions."</li>
+            </ul>
+          </div>
+
+          <div class="map-quadrant">
+            <span class="map-title">Does</span>
+            <ul>
+              <li>Studies the interface before touching the screen</li>
+              <li>
+                Looks for descriptions of drinks and looks through options .
+              </li>
+              <li>Tries multiple orientations when swiping her card</li>
+              <li>Watches the brewing process with nervousness</li>
+              <li>Navigates the interface hesitantly</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="storyboard">
+      <h2>Storyboard: Efficient Emerson's Coffee Routine</h2>
+      <p>
+        This storyboard illustrates Emerson's experience using the library
+        coffee machine, highlighting his focus on efficiency and the
+        frustrations he encounters with the interface.
+      </p>
+
+      <div class="storyboard-grid">
+        <div class="storyboard-frame">
+          <div class="frame-img">
+            <img
+              class="storyboard-frame-img"
+              src="assets/storyboard-frame-1.png"
+              alt="Frame 1 - Emerson rushes into the library"
+            />
+          </div>
+          <div class="frame-caption">
+            <span class="frame-number">1</span>
+            Emerson checks his watch as he hurries into the library. He has 10
+            minutes before his next class and needs his usual caffeine boost. He
+            heads straight for the coffee machine.
+          </div>
+        </div>
+
+        <div class="storyboard-frame">
+          <div class="frame-img">
+            <img
+              class="storyboard-frame-img"
+              src="assets/storyboard-frame-2.png"
+              alt="Frame 2 - Emerson taps the welcome screen"
+            />
+          </div>
+          <div class="frame-caption">
+            <span class="frame-number">2</span>
+            Emerson taps the welcome screen without even glancing at it.
+          </div>
+        </div>
+
+        <div class="storyboard-frame">
+          <div class="frame-img">
+            <img
+              class="storyboard-frame-img"
+              src="assets/storyboard-frame-3.png"
+              alt="Frame 3 - Emerson navigates to his drink"
+            />
+          </div>
+          <div class="frame-caption">
+            <span class="frame-number">3</span>
+            Still barely looking up, Emerson taps on his usual coffee. He moves
+            efficiently, having done this many times.
+          </div>
+        </div>
+
+        <div class="storyboard-frame">
+          <div class="frame-img">
+            <img
+              class="storyboard-frame-img"
+              src="assets/storyboard-frame-4.png"
+              alt="Frame 4 - Emerson pays"
+            />
+          </div>
+          <div class="frame-caption">
+            <span class="frame-number">4</span>
+            The screen shows Emerson the price of his drink, and Emerson swipes
+            his college id card into the reader.
+          </div>
+        </div>
+
+        <div class="storyboard-frame">
+          <div class="frame-img">
+            <img
+              class="storyboard-frame-img"
+              src="assets/storyboard-frame-5.png"
+              alt="Frame 5 - Emerson waits for his payment to confirm"
+            />
+          </div>
+          <div class="frame-caption">
+            <span class="frame-number">5</span>
+            Emerson impatiently looks aroung while he waits for the card reader
+            to accept his payment.
+          </div>
+        </div>
+
+        <div class="storyboard-frame">
+          <div class="frame-img">
+            <img
+              class="storyboard-frame-img"
+              src="assets/storyboard-frame-6.png"
+              alt="Frame 6 - Emerson presses 'Make My Drink'"
+            />
+          </div>
+          <div class="frame-caption">
+            <span class="frame-number">6</span>
+            Once his payment goes through, a "Make My Drink" button appears
+            which Emerson presses before it finishes animating into place. He
+            wonders why he needs to press that after paying already anyway.
+          </div>
+        </div>
+
+        <div class="storyboard-frame">
+          <div class="frame-img">
+            <img
+              class="storyboard-frame-img"
+              src="assets/storyboard-frame-7.png"
+              alt="Frame 7 - The drink dispenses"
+            />
+          </div>
+          <div class="frame-caption">
+            <span class="frame-number">7</span>
+            The screen doesn't change, but the machine begins to make noise and
+            dispense Emerson's drink. Emerson gets on his phone while he waits.
+          </div>
+        </div>
+
+        <div class="storyboard-frame">
+          <div class="frame-img">
+            <img
+              class="storyboard-frame-img"
+              src="assets/storyboard-frame-8.png"
+              alt="Frame 8 - Emerson grabs his drink and goes"
+            />
+          </div>
+          <div class="frame-caption">
+            <span class="frame-number">8</span>
+            The moment the machine beeps to signal completion, Emerson carefuly
+            grabs his drink (to avoid burning his hands), and marches off to
+            class.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="reflection">
+      <h2>Reflection & Insights</h2>
+
+      <div class="reflection">
+        <p>
+          Through this study, I gained insights into how different users
+          interact with the same machines--in this example, the library's coffee
+          machine. There are very sharp contrasts between the habits of certain
+          users. For example, users such as the Efficient Emerson persona barely
+          look at the interface and just want their coffee. On the other hand,
+          users such as Confused Carly are looking for a little more guidance
+          and reassurance throughout the process
+        </p>
+
+        <p>
+          Interacting and communicating with these types of users (and other
+          types) revealed a couple pain points:
+        </p>
+
+        <ul>
+          <li>
+            <strong>Poor location choice for information</strong> - Even though
+            there were status updates, users feel as though they're not there
+            since they're in the top right corner of the screen, outside of the
+            natural line of sight.
+          </li>
+          <li>
+            <strong>Lack of drink descriptions</strong> - Users expressed
+            confusion about the differences between similar-sounding options
+            like "hot chocolate" versus "creamy hot chocolate," and mentioned
+            that it would be nice to have distinguishing descriptions
+          </li>
+          <li>
+            <strong>Unclear payment flow</strong> - Some users were uncertain
+            whether to select their drink first or pay first
+          </li>
+          <li>
+            <strong>Not enough feedback/updates</strong> - While the card reader
+            states that the transaction went through, there's no other
+            indication on the screen that one is processing or going through,
+            potentially confusing readers
+          </li>
+          <li>
+            <strong>Inefficient for regulars</strong> - Frequent users were
+            bored of going through same screens repeatedly for drinks they order
+            many times
+          </li>
+          <li>
+            <strong>Confusing cup options</strong> - The interface sometimes
+            mentions bringing your own cup but didn't clearly explain how to do
+            so
+          </li>
+        </ul>
+
+        <p>
+          Based on these findings, several specific improvements could enhance
+          the interface:
+        </p>
+
+        <ul>
+          <li>
+            Add a "Quick Order" feature that would allow regular users to bypass
+            multiple screens
+          </li>
+          <li>
+            Include clear descriptions for each drink option to help users
+            understand the differences, including ingredients and caloric
+            content for those with dietary restrictions
+          </li>
+          <li>
+            Streamline the payment process with clearer prompts about when and
+            how to pay
+          </li>
+          <li>
+            Provide cleare feedback during payment processing and drink
+            dispensing with visual and audio cues
+          </li>
+          <li>Remove the initial welcome screen</li>
+          <li>Add clear instructions for the "bring your own cup" option</li>
+        </ul>
+
+        <p>
+          This project reinforced the importance of observing users in their
+          natural environment rather than relying on assumptions. Even with just
+          three users, clear patterns emerged showing how a seemingly simple
+          interface needs to accommodate vastly different needs—from the
+          efficiency-focused student who wants minimal interaction to the
+          cautious user who needs reassurance throughout the process.
+        </p>
+      </div>
+    </section>
+    <footer>
+      <p>
+        UX Research Project | Created for CSCI 1300 by Sana Saab| March 2025
+      </p>
+    </footer>
+  </body>
+</html>
