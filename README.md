@@ -1,12 +1,12 @@
-# Accessible Popups
+# Personas and Storyboarding
 
-A case study examining the accessibility of cookie consent popups and implementing improved designs for inclusive user interaction.
+A case study examining the design of coffee vending machines.
 
 ## Project Overview
 
-This project analyzes cookie consent popups from three major websites (Filmin, FIFA, and H&M) through the lens of accessibility. It examines how these components handle different input methods, present information to users, and support assistive technologies like screen readers.
+This project coffee vending machines by interviewing users, creating personas, and storyboarding. It examines how these machines are designed to cater to various personas, and how their design can be improved.
 
-The project is built with HTML and CSS for styling and responsive design.
+The project is built with HTML and CSS for styling.
 
 ## How to Use
 
